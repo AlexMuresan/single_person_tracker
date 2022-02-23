@@ -1,4 +1,12 @@
-# single_person_tracker
+# Single Person Tracker
+
+## Description
+
+This script employs a variety of computer vision and deep learning techinques to track a person throught a video.
+
+It is designed to use multiple crops of a person in order to extract relevant features.
+
+As opposed to other trackers it does not use a Kalman Filter to estimate the trajectory and velocity of a person. It is purely based on extracting visual features and searching for them throughout the video frames.
 
 ## Script Description
 
